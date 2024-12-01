@@ -1,0 +1,476 @@
+:root {
+    --ada-blue: #ffffff;
+    --ada-red: #ae485e;
+}
+
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--ada-blue);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px;
+    background-color: #7976ca;
+}
+
+.logo {
+    padding: 5px;
+}
+.logo img{
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: rgb(1, 10, 10);
+}
+
+main {
+    background: url('https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104856.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000a3;
+    background-blend-mode: darken;
+}
+
+.about-us{
+    color: #fff;
+    display: flex;
+    padding-top: 15px;
+    padding-inline: 50px;
+    padding-block: 20px;
+    gap: 40px;
+    font-size: 20px;
+    
+}
+
+.text{
+    width: 49%;
+}
+.image{
+    width: 49%;
+}
+.image img {
+    width: 100%;
+}
+
+
+
+.content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background: url('https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104856.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000a3;
+    background-blend-mode: darken; }
+
+    .contact-us{
+    background: url('https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104856.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000a3;
+    background-blend-mode: darken;
+    }
+
+
+  
+  .card {
+    background-color: #7976ca;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  
+  a.button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+  }
+  
+  a.button:hover {
+    background-color: #281947;
+    color: white;
+  }
+
+
+  :root {
+    --ada-blue: #ffffff;
+    --ada-red: #ae485e;
+    --primary-color: #7976ca;
+    --text-color: #fff;
+    --background-image-url: url('https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104856.jpg?semt=ais_hybrid');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    background-image: var(--background-image-url);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--primary-color);
+}
+
+header h1 {
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(1, 10, 10);
+}
+
+
+.team-members {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.team-members h2 {
+    font-size: 32px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+
+.member-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 30px ;
+    background-color: #f4f4f9;  
+    flex-direction: column;
+    text-align: center;
+    color: #333;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+}
+
+
+.member-photo {
+    margin-bottom: 20px;
+}
+
+.member-photo img {
+    width: 250px; 
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.member-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.contact-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-us h2 {
+    color: var(--text-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-us ul {
+    list-style: none;
+}
+
+.contact-us li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-us li a:hover {
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  
+  header {
+    background-color: #7976ca;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin: 5px 0 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+ .hour-of-code {
+    text-align: center;
+    text-align: justify;
+ }
+  
+ .intro {
+    text-align: justify; 
+    margin: 20px auto; 
+    padding: 20px; 
+    width: 80%; 
+    line-height: 1.6;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .intro h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .gallery {
+    text-align: center;
+  }
+  
+  .gallery h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .video-caption{
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .gallery-container img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .footer-section {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .footer-section p {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  .video-caption {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+video{
+    width: 20%;
+}
+
+.main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #3d267d;  
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px 20px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse; /* Remove gaps between borders */
+    margin-top: 1px;
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+table thead {
+    background-color: #b6bdfd; /* Light brown background for the header */
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc; /* Light gray border for cells */
+    font-size: 16px;
+}
+
+table th {
+    font-weight: bold;
+    color: #333; /* Darker text for headers */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for alternating rows */
+}
+
+table tr:hover {
+    background-color: white; /* Highlight row on hover */
+}
+
+table td a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+table td a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    table th,
+    table td {
+        font-size: 14px;
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
